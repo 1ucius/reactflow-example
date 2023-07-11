@@ -1,0 +1,47 @@
+.App {
+  height: 100vh;
+}
+
+.customNode {
+  width: 100px;
+  height: 50px;
+  border: 2px solid black;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background: white;
+}
+
+
+.simple-floatingedges {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.simple-floatingedges .react-flow__handle {
+  width: 8px;
+  height: 8px;
+  background-color: #bbb;
+}
+
+.simple-floatingedges .react-flow__handle-top {
+  top: -15px;
+}
+
+.simple-floatingedges .react-flow__handle-bottom {
+  bottom: -15px;
+}
+
+.simple-floatingedges .react-flow__handle-left {
+  left: -15px;
+}
+
+.simple-floatingedges .react-flow__handle-right {
+  right: -15px;
+}
